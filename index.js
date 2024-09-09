@@ -7,10 +7,33 @@ console.log(isStudent)
 const myString = "Що розум людини може осягнути і в що він може повірити, те він здатний досягти"
 console.log(myString)
 const myNumber = 5;
-myNewNumber = myNumber + 10;
+let myNewNumber = myNumber + 10;
 console.log(myNewNumber)
 const myNull = null;
 console.log(myNull)
-let person = prompt("what's ur name");
-let nameAlert = alert("Welcome", person);
-console.log(person, nameAlert)
+const person = prompt("what's ur name");
+alert(`Welcome ${person}`);
+console.log(person);
+const alertConfrim = alert("Thats dangerous!");
+confirm("Are you sure?");
+
+
+
+
+
+
+
+
+
+
+
+
+
+const a = "5";
+const b = 5;
+
+
+console.log(a == b) // true
+
+console.log(a === b) // false
+

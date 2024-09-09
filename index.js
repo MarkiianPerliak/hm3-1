@@ -11,7 +11,6 @@ myNewNumber = myNumber + 10;
 console.log(myNewNumber)
 const myNull = null;
 console.log(myNull)
-console.log(prompt("what's ur name"));
-console.log(alert("Welcome"));
-console.log(confirm("Confrim?"));
-console.log(alert("Are you sure?"));
+let person = prompt("what's ur name");
+let nameAlert = alert("Welcome", person);
+console.log(person, nameAlert)

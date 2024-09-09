@@ -14,8 +14,13 @@ console.log(myNull)
 const person = prompt("what's ur name");
 alert(`Welcome ${person}`);
 console.log(person);
+
+confirm("Do you accept terms of service")
+alert("Дякую за підтвердження!")
+
 const alertConfrim = alert("Thats dangerous!");
 confirm("Are you sure?");
+alert("Дякую за підтвердження!")
 
 
 
@@ -29,11 +34,11 @@ confirm("Are you sure?");
 
 
 
-const a = "5";
-const b = 5;
+// const a = "5";
+// const b = 5;
 
 
-console.log(a == b) // true
+// console.log(a == b) // true
 
-console.log(a === b) // false
+// console.log(a === b) // false
 
